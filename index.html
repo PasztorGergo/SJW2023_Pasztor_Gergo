@@ -40,7 +40,7 @@
         <h1 class="text-center">Pizzák</h1>
         <section>
           <div class="row">
-            <div class="col-8">
+            <div class="col-lg-8 col-md-12">
               <p>
                 A pizza olasz eredetű étel, ami mára az egész világon elterjedt.
                 Alapja egy kelt tésztából készült vékony lepénykenyér, melyet
@@ -66,7 +66,10 @@
                 hívják. A félbehajtott pizza neve calzone.
               </p>
             </div>
-            <img class="col-4 img-thumbnail" src="./img/pizza.jpg" />
+            <img
+              class="col-lg-4 col-md-12 img-thumbnail img-fluid"
+              src="./img/pizza.jpg"
+            />
           </div>
         </section>
         <section id="tortenete">
@@ -128,7 +131,10 @@
                 </p>
               </div>
               <figure>
-                <img height="100%" src="./img/Pizzeria_Port_Alba.jpg" />
+                <img
+                  class="img-fluid img-thumbnail"
+                  src="./img/Pizzeria_Port_Alba.jpg"
+                />
                 <figcaption class="text-center">
                   Antica Pizzeria - Port Alba
                 </figcaption>
@@ -138,10 +144,65 @@
         </section>
         <section class="napolyi-pizza">
           <h2>Nápolyi pizza</h2>
+          <div class="row">
+            <div class="col">
+              <p>
+                A nápolyi pizza (olaszul: pizza napoletana) paradicsom és
+                Mozzarella-sajt felhasználásával készül. A pizzára San
+                Marzano-paradicsomot tesznek, amely a Vezúvtól délre fekvő
+                vulkanikus síkságon terem, valamint használnak hozzá mozzarella
+                di bufala-t is, amely sajt a Campania és Lazio területén élő
+                vízibivalyok tejéből készül.
+              </p>
+              <p>
+                Az eredeti nápolyi pizza búzalisztből, természetes nápolyi
+                élesztőből, vagy sörélesztőből és vízből készül tengeri só
+                hozzáadásával. A megfelelő eredmény érdekében kemény, úgy
+                nevezett nullás, vagy dupla nullás lisztet használnak magas
+                fehérjetartalommal (olyat, amelyet inkább kenyérkészítéshez
+                használnak). A tésztát kézzel, vagy alacsony fokozatra állított
+                keverőgéppel pontosan húsz percig dagasztják. Az akár több, mint
+                egy napig tartó kelési folyamatot követően a tésztát kézzel
+                nyújtják úgy, hogy innentől kezdve nem használnak hozzá sem
+                konyhai készülékeket, sem nyújtófát. A tészta vastagsága nem
+                haladhatja meg a 3 millimétert. A tésztát 60-90, vagy 120
+                másodpercig sütik 485 °C-on nápolyi kemencében. A sütőt
+                tölgyfával fűtik és kövön sütik a pizzát. Mikor elkészül
+                puhának, rugalmasnak, lágynak és törékenynek kell lennie.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <p>A nápolyi pizzának három hivatalos változata létezik:</p>
+              <ul>
+                <li>
+                  a <span class="name">pizza marinara</span>, amelyhez
+                  paradicsomot, fokhagymát, oregánót és extra szűz olivaolajat
+                  használnak fel
+                </li>
+                <li>
+                  <span class="name">pizza Margherita</span> , melyhez
+                  paradicsomot, szeletelt mozzarellát, bazsalikomot és extra
+                  szűz olivaolajat használnak fel
+                </li>
+                <li>
+                  valamint a <span class="name">pizza Margeritha extra</span>,
+                  melyhez paradicsomot, Campaniából származó mozzarellacsíkokat,
+                  bazsalikomot és extra szűz olivaolajat használnak fel
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer class="py-2 container">
+      <span class="text-white"
+        >Forrás:
+        <a href="https://hu.wikipedia.org/wiki/Pizza">Wikipédia</a></span
+      >
+    </footer>
     <script src="./js/index.js"></script>
     <script src="./js/bootstrap.min.js"></script>
   </body>
